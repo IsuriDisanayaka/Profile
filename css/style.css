@@ -1,0 +1,2515 @@
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #403c3c;
+    text-align:center ;
+}
+.loader img{
+    margin-top:300px;
+    height: 50px;
+    width: 50px;
+}
+.hidden{
+    display: none;
+}
+.body{
+    width: 100%;
+    position: relative;
+}
+body>header {
+    width: 100%;
+    height: 46px;
+    background: #ffffff;
+    box-shadow: 1px 2px 7px 4px #bfa0a0d6;
+    position: fixed;;
+    z-index: 1000;
+    text-decoration: none;
+
+}
+body>header>ul {
+    padding-left:641px;
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+
+}
+body>header>ul>li:hover{
+    color: rgba(0,0,0,.9);
+    z-index: 30000;
+}
+.menu-btn{
+    color: #6c757d;
+}
+.menu-btn:hover{
+    color: rgba(0,0,0,.9);
+}
+body>header>ul>li {
+    display: inline-block;
+    padding-right: 31px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 200;
+    color: #6c757d;
+}
+body>header> ul > li > i {
+    color: #6c757d;
+    margin-right: 5px;
+    text-decoration: none;
+
+}
+
+body>div:nth-child(3){
+    height: 610px;
+    width: 100%;
+    background:linear-gradient(to right,#020312, #1b1b1d);
+    position: relative;
+    left: 0;
+    top:47px;
+}
+body>div>img {
+    width: 459px;
+    height: 599px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+body>div>ul>li:hover{
+    color:lightgreen;
+}
+body>div>ul{
+
+    position: absolute;
+    left: 62px;
+    font-size: 24px;
+    top: 18px;
+    list-style: none;
+
+}
+body>div>ul>li {
+    display: inline-block;
+    color: #ffffff;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-weight: lighter;
+}
+body>div>nav>h1{
+    position: absolute;
+    top: 155px;
+    left: 180px;
+    font-family:"Leelawadee UI";
+    color:  #f8f9fa;;
+    font-size: 68px;
+    font-weight: bold;
+    animation-name: chanagecolor;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+}
+@keyframes chanagecolor {
+    from{
+        color: white;
+    }
+    to{
+        color: black;
+
+    }
+}
+body>div>nav>h2 {
+    position: absolute;
+    top: 358px;
+    left: 296px;
+    font-family: "Fira Code Medium";
+    color: #e2c1c1;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+
+body> about:nth-child(4){
+    height: 608px;
+    width: 100%;
+    background:linear-gradient(to left,#020312, #1b1b1d);
+    position: absolute;
+    top: 655px;
+
+
+}
+body>about>div>h1{
+    position: relative;
+    top:36px;
+    color: #1b1b1d;
+    font-weight: bold;
+    font-size: 36px;
+    -webkit-text-stroke: 0.3vw #1b1b1d;
+    text-transform: uppercase;
+
+}
+body>about>div>h1::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: lightgoldenrodyellow;
+    -webkit-text-stroke: 0vw #1b1b1d;
+    border-right: 2px white;
+    overflow: hidden;
+    animation:animate 4s linear infinite;
+}
+@keyframes animate {
+    0%,10%,100%
+    {
+        width: 0;
+    }70%,90%
+     {
+         width: 100%;
+     }
+}
+body>about>div>div>ul{
+    display: grid;
+    padding-top: 66px;
+    padding-left: 509px;
+    list-style: none;
+    font-size: 28px;
+
+}
+body>about>div>div>ul>li{
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-family: "Microsoft JhengHei Light";
+
+}
+body>about>div>div>ul>a{
+    padding-left:93px;
+    color:gainsboro;
+    font-family: "Imprint MT Shadow";
+    font-weight: normal;
+
+}
+body>about>div>div>img {
+    position: absolute;
+    top: 127px;
+    height: 481px;
+    width: 398px;
+    filter: blur(1px);
+}
+body>about>div>div>p1:hover{
+
+    border-radius: 20%;
+    transition: all 0.3s ease;
+}
+body>about>div>div>p1 {
+    font-size: 28px;
+    right:84px;
+    background: black;
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    top: 501px;
+    border: 2px solid  snow;
+    border-radius: 20%;
+}
+
+.dowload_cv {
+    font-size: 25px;
+    right: 247px;
+    font-family:Ubuntu;
+    background: snow;
+    color:black ;
+    position: absolute;
+    font-weight: bold;
+    top: 500px;
+    width: 180px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 2px 2px 2px 2px;
+    text-decoration: none;
+
+
+}
+.dowload_cv:hover{
+    transition: 0.3s;
+    background: #6c757d;;
+
+}
+body>about>div>div>p2:hover{
+    transform: translateX(10%);
+    color:black;
+    background: white;
+}
+body>about>div>div>p2 {
+    font-size: 22px;
+    right: 35px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    top: 342px;
+}
+body>about>div>div>p2>img{
+    width: 24px;
+    height: 29px;
+}
+
+body> nav:nth-child(5) {
+    height: 603px;
+    width: 100%;
+    background: linear-gradient(to left, #020312, #1b1b1d);
+    position: absolute;
+    top: 1261px;
+}
+body>nav>h1{
+    position: relative;
+    top:36px;
+    color: #1b1b1d;
+    font-weight: bold;
+    font-size: 36px;
+    -webkit-text-stroke: 0.3vw #1b1b1d;
+    text-transform: uppercase;
+
+}
+body>nav>h1::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: lightgoldenrodyellow;
+    -webkit-text-stroke: 0vw #1b1b1d;
+    border-right: 2px white;
+    overflow: hidden;
+    animation:animate 4s linear infinite;
+}
+body>nav .info {
+    display: grid;
+    left: 676px;
+    width: 100px;
+    position: relative;
+    text-align: center;
+    padding:20px;
+    font-size: 18px;
+    color: #a79696;
+    font-weight: bold;
+    top: -30px;
+}
+
+body>nav>div .oneJava{
+    color: black;
+    animation-name: java;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    background:  #e2cece
+
+
+}
+@keyframes java {
+    from{
+        width: 100px;
+        content: "";
+    }
+    to{
+        width: 300px;
+        content: "b";
+    }
+}
+body>nav>div >span.TwoMysql{
+    background: #e2cece;
+    color: black;
+    animation-name: js;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes Dbms {
+    from{
+        width: 100px;
+        content: "";
+    }
+    to{
+        width: 200px;
+        content: "b";
+    }
+}
+body>nav>div>span.ThreeHtml{
+    background: #e2cece;
+    color: black;
+    animation-name: HTMl;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    top: -122px;
+    animation-fill-mode: forwards;
+}
+@keyframes HTMl {
+    from {
+        width: 100px;
+    }
+    to {
+        width: 300px;
+    }
+}
+body>nav>div>span.css{
+    background: #e2cece;
+    color: black;
+    animation-name:HTMl;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes Css {
+    from{
+        width: 100px;
+    }
+    to{
+        width: 300px;
+    }
+}
+body>nav>div>span.js{
+    background: #e2cece;
+    color: black;
+    animation-name: js;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes js {
+    from{
+        width: 100px;
+    }
+    to{
+        width: 250px;
+    }
+}
+body>nav>div >span.angu{
+    background: #e2cece;
+    color: black;
+    animation-name:angu ;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes angu {
+    from{
+        width: 100px;
+        content: "";
+    }
+    to{
+        width: 200px;
+        content: "b";
+    }
+}
+body>nav>div >span.reactNative{
+    background: #e2cece;
+    color: black;
+    animation-name:reactNative ;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes reactNative {
+    from{
+        width: 100px;
+        content: "";
+    }
+    to{
+        width: 200px;
+        content: "b";
+    }
+}
+body>nav>div >span.node{
+    background: #e2cece;
+    color: black;
+    animation-name:node ;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes node {
+    from{
+        width: 100px;
+        content: "";
+    }
+    to{
+        width: 150px;
+        content: "b";
+    }
+}
+body>nav>div >span.spring{
+    background: #e2cece;
+    color: black;
+    animation-name:spring ;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes spring {
+    from{
+        width: 100px;
+        content: "";
+    }
+    to{
+        width: 150px;
+        content: "b";
+    }
+}
+body>nav>p {
+    color: #e2cece;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 101px;
+    top: 165px;
+    position: absolute;
+}
+body>nav>img {
+    width: 275px;
+    top: 393px;
+    height: 210px;
+    position: absolute;
+}
+
+body>article {
+    animation-name: work;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    width: 96%;
+    height: 89px;
+    top: 1214px;
+    position: relative;
+}
+body>article >img {
+    animation-name: work;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    width: 96%;
+    height: 89px;
+    /* top: 0px; */
+    position: absolute;
+}
+body>article>p {
+    font-size: 42px;
+    width: 100%;
+    top: 20px;
+    font-style: italic;
+    font-weight: bold;
+    position: relative;
+    font-family: monospace;
+    color: black;
+    animation-name: color;
+    animation-duration: 5s;
+    animation-iteration-count: 10;
+}
+@keyframes color {
+    from{
+        color: #0c0c0c;
+
+    }
+    to{
+        color: #2c2c2f;
+        transform: translateX(4%);
+    }
+
+}
+body>article>div {
+    width: 119px;
+    height: 90px;
+    position: relative;
+    background: black;
+    text-align: center;
+    font-size: 33px;
+    color: white;
+    left: 1230px;
+    top: -90px;
+}
+body> section:nth-child(7) {
+    height: 608px;
+    width: 100%;
+    background: linear-gradient(to left,#020312, #1b1b1d);
+    position: absolute;
+    top: 1955px;
+}
+body>section>h1{
+    position: relative;
+    top:15px;
+    color: #1b1b1d;
+    font-weight: bold;
+    font-size: 36px;
+    -webkit-text-stroke: 0.3vw #1b1b1d;
+    text-transform: uppercase;
+
+}
+body>section>h1::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: lightgoldenrodyellow;
+    -webkit-text-stroke: 0vw #1b1b1d;
+    border-right: 2px white;
+    overflow: hidden;
+    animation:animate 4s linear infinite;
+}
+
+
+body>section>div>div:nth-child(1){
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    top: 168px;
+    color: snow;
+    font-size: 27px;
+    font-family:"Arial Narrow";
+    text-align: center;
+    animation-name:change;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+    font-weight: bold;
+
+}
+body>section>div>div:nth-child(2){
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    top: 276px;
+    font-family:"Arial Narrow";
+    color: snow;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    animation-name:change;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+
+}
+body>section>div>div:nth-child(3){
+    width: 300px;
+    font-family:"Arial Narrow";
+    height: 40px;
+    position: absolute;
+    top: 403px;
+    color: snow;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    animation-name:change;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+    left:-26px;
+
+}
+@keyframes change {
+    from{
+        transform: translate(20%);
+    }
+    to{
+        transform: translate(100%);
+    }
+}
+body>section>div>div:nth-child(1)>h1{
+    font-size: 27px;
+    position: absolute;
+    right: -664px;
+    font-family: "Microsoft JhengHei Light";
+    top: 07px;
+    box-shadow: 4px 5px 16px 1px #ecedf3;
+    color: white;
+    animation-name:chg;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+}
+body>section>div>div:nth-child(2)>h2{
+    font-size: 27px;
+    position: absolute;
+    font-family: "Microsoft JhengHei Light";
+    right: -664px;
+    top: 07px;
+    box-shadow: 4px 5px 16px 1px #ecedf3;
+    color: white;
+    animation-name:chg;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+}
+body>section>div>div:nth-child(3)>h3{
+    font-size: 27px;
+    position: absolute;
+    right: -974px;
+    font-family: "Microsoft JhengHei Light";
+    top: 7px;
+    box-shadow: 4px 5px 16px 1px #ecedf3;
+    color: white;
+    animation-name:chg;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+}
+@keyframes chg {
+    from{
+        transform: translate(-20%);
+    }
+    to{
+        transform: translate(-150%);
+    }
+}
+
+body>section>div>p {
+    position: absolute;
+    font-size: 33px;
+    top: 200px;
+    font-family: cursive;
+    color: #e2cece;
+    right: 54px;
+}
+body>done {
+    height:1327px;
+    width: 100%;
+    background: linear-gradient(to left,#020312, #1b1b1d);
+    position: absolute;
+    top: 2563px;
+}
+
+body>done>h1{
+    position: relative;
+    top:15px;
+    color: #1b1b1d;
+    font-weight: bold;
+    font-size: 36px;
+    -webkit-text-stroke: 0.3vw #1b1b1d;
+    text-transform: uppercase;
+
+}
+body>done>h1::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: lightgoldenrodyellow;
+    -webkit-text-stroke: 0vw #1b1b1d;
+    border-right: 2px white;
+    overflow: hidden;
+    animation:animate 4s linear infinite;
+}
+body>done>assignment>h1 {
+    color: #e2cece;
+    position: absolute;
+    top: 83px;
+    left: 165px;
+    font-size: 32px;
+    font-weight: normal;
+    font-family: auto;
+}
+body>done>assignment .content-ass {
+
+    position: absolute;
+    top: 178px;
+    display: flex;
+    left: 46px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    /* margin: 18px 132px 31px 0; */
+
+}
+
+body>done>assignment .content-ass .card{
+    display: grid;
+    margin: 38px 132px 31px 17px;
+    font-family: Ubuntu;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+body>done>assignment .content-ass .card .box .header {
+    text-align: center;
+    color: wheat;
+    font-family: Ubuntu;
+    display: grid;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+body>done>assignment .content-ass .card .box {
+    background: linear-gradient(to left,#020312, #1b1b1d);
+    width: 170px;
+    height: 137px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+
+}
+.card:hover {
+    transform:scale(1.15);
+    box-shadow: 1px 2px 7px 4px #ffffff;
+
+
+}
+body>done>assignment .content-ass .card .box .text {
+    /* font-size: 20px; */
+    padding-top: 25px;
+    width: 176px;
+    padding-left: 7px;
+    paddinh-top: 113px;
+    color: white;
+    font-weight: normal;
+    font-family: "Microsoft JhengHei Light";
+    font-weight: 500;
+    text-decoration: none;
+    /* margin: 10px 0 7px 0; */
+}
+
+
+
+
+body>done>project>h1 {
+    color: #e2cece;
+    position: absolute;
+    top: 825px;
+    left: 165px;
+    font-size: 32px;
+    font-weight: normal;
+    font-family: auto;
+}
+body>done>project .content-pro {
+    position: absolute;
+    top: 915px;
+    display: flex;
+    left: 46px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 18px 132px 31px 0; */
+}
+body>done>project .content-pro .card{
+    display: grid;
+    margin: 38px 132px 31px 17px;
+    font-family: Ubuntu;
+    color: white;
+    font-size: 18px;
+}
+body>done>project .content-pro .card .box .header {
+    text-align: center;
+    color: wheat;
+    font-family: Ubuntu;
+    display: grid;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+body>done>project .content-pro .card .box {
+    background: linear-gradient(to left,#020312, #1b1b1d);
+    width: 170px;
+    height: 137px;
+    transition: all 0.3s ease;
+}
+
+body>done>project .content-pro .card .box .text {
+    /* font-size: 20px; */
+    padding-top: 25px;
+    width: 176px;
+    padding-left: 7px;
+    paddinh-top: 113px;
+    color: white;
+    font-weight: normal;
+    font-family: "Microsoft JhengHei Light";
+    font-weight: 500;
+    /* margin: 10px 0 7px 0; */
+}
+
+
+body>contact {
+    height: 1022px;
+    width: 100%;
+    background: linear-gradient(to left,#020312, #1b1b1d);
+    position: absolute;
+    top: 3890px;
+}
+
+body>contact>h1{
+    position: relative;
+    top:15px;
+    color: #1b1b1d;
+    font-weight: bold;
+    font-size: 36px;
+    -webkit-text-stroke: 0.3vw #1b1b1d;
+    text-transform: uppercase;
+
+}
+body>contact>h1::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: lightgoldenrodyellow;
+    -webkit-text-stroke: 0vw #1b1b1d;
+    border-right: 2px white;
+    overflow: hidden;
+    animation:animate 4s linear infinite;
+}
+
+body>contact >div>ul{
+    display: flex;
+    color: white;
+}
+body>contact >div>ul>li {
+    display: flex;
+    font-size: 46px;
+    padding-left: 196px;
+    padding-top: 40px;
+    color:white;
+}
+body>contact >div>ul>li :hover {
+    color: #eeeeee;
+}
+body>contact >div>ul>li >a>p3 {
+    display: flex;
+    font-size: 21px;
+    padding-top: 4px;
+    color:silver;
+
+}
+body>contact>h3 {
+    color: #eeeeee;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    position: absolute;
+    right: 417px;
+    top: 289px;
+    font-stretch: semi-condensed;
+}
+
+
+body>contact>msg .msg {
+    position: absolute;
+    top: 454px;
+    display: flex;
+    left: 456px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.mail{
+    background:rgba(255, 255, 255, .1);
+    margin: 20px 46px 74px 52px;
+    transition: all 0.3s ease;
+    z-index: 80;
+}
+.mail:hover {
+    transition: all 0.3s ease;
+    background: black;
+    color: white;
+
+}
+body>contact>msg>name {
+    color: white;
+    font-size: 14px;
+    left: 454px;
+    top: 403px;
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+body>contact>msg>name>h2 {
+    margin: 20px 327px 104px 52px;
+    z-index: 20;
+}
+body>contact>msg>send {
+    position: absolute;
+    background: #2b2b34;
+    text-align: center;
+    color:white;
+    border: 2px solid  wheat;
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 29px;
+    width: 207px;
+    height: 38px;
+    right: 46px;
+    top: 867px;
+    z-index: 100;
+}
+send:hover {
+    transform: scale(1.05);
+    background: #4b4747;
+    color: black;
+    z-index: 500;
+}
+body>contact>h4{
+    font-size: 36px;
+    position: relative;
+    color: burlywood;
+    top: 133px;
+    font-family: cursive;
+}
+
+
+body>contact>ul {
+    font-size: 24px;
+    list-style: none;
+    top: 144px;
+    position: relative;
+    text-decoration: none;
+    color: #dae0e7;
+}
+
+body>contact>ul>li {
+    color: #dae0e7;
+    /* display: inline-block; */
+    padding-right: 31px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 37px;
+    text-decoration: none;
+}
+body>contact>ul > li > i {
+    color: lightgoldenrodyellow;
+    margin-top: 5px;
+    text-decoration: none;
+}
+body>contact>ul>li:hover{
+    color: white;
+    transform: scale(1.05);
+    text-decoration: none;
+}
+body>footer {
+    height: 60px;
+    width: 100%;
+    background:#020312;
+    position: absolute;
+    top: 4912px;
+
+}
+body>footer>h1{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+body>footer>h2{
+    font-size: 12px;
+    color: #eeeeee;
+    text-align: center;
+}
+@media all and (max-width: 1024px){
+    body>header>ul {
+        padding-left: 315px;
+        font-size: 20px;
+        list-style: none;
+        display: flex;
+        text-decoration: none;
+    }
+    body>div>nav>h1 {
+        position: absolute;
+        top: 155px;
+        left: 100px;
+        font-family:"Leelawadee UI";
+        color: #f8f9fa;
+        font-size: 68px;
+        font-weight: bold;
+        animation-name: chanagecolor;
+        animation-duration: 2s;
+        animation-iteration-count: 2;
+    }
+    body>div>nav>h2 {
+        position: absolute;
+        top: 358px;
+        left: 227px;
+        font-family: "Fira Code Medium";
+        color: #e2cece;
+        font-size: 25px;
+    }
+    body>nav .info {
+        display: grid;
+        left: 618px;
+        width: 100px;
+        position: relative;
+        text-align: center;
+        padding: 20px;
+        font-size: 18px;
+        color: #a79696;
+        font-weight: bold;
+        top: -30px;
+    }
+    body>article>p {
+        font-size: 39px;
+        width: 100%;
+        top: 20px;
+        font-style: italic;
+        font-weight: bold;
+        position: relative;
+        font-family: monospace;
+        color: black;
+        animation-name: color;
+        animation-duration: 5s;
+        animation-iteration-count: 10;
+    }
+    body>article>div {
+        width: 119px;
+        height: 101px;
+        position: relative;
+        background: black;
+        text-align: center;
+        font-size: 33px;
+        color: white;
+        /* right: 2000px; */
+        /* right: -904px; */
+        left: 904px;
+        top: -90px;
+    }
+    body>section>div>p {
+        position: absolute;
+        font-size: 31px;
+        top: 200px;
+        font-family: cursive;
+        color: #e2cece;
+        right: 714px;
+    }
+    body>contact >div>ul>li {
+        display: flex;
+        font-size: 46px;
+        padding-left: 99px;
+        padding-top: 40px;
+        color: white;
+    }
+    body>contact>h4 {
+        font-size: 36px;
+        position: relative;
+        color: burlywood;
+        padding-left: 26px;
+        top: 133px;
+        font-family: cursive;
+    }
+    body>contact>msg .msg {
+        position: absolute;
+        top: 454px;
+        display: flex;
+        left: 334px;
+        height: 15px;
+        width: 500px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    body>contact>msg>name {
+        color: white;
+        font-size: 14px;
+        left: 330px;
+        top: 403px;
+        display: flex;
+        position: absolute;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    body>contact>msg>send {
+        position: absolute;
+        background: linear-gradient(to left,#020312, #1b1b1d);
+        text-align: center;
+        color: white;
+        border: 2px solid white;
+        font-family: Ubuntu;
+        font-weight: bold;
+        font-size: 29px;
+        width: 185px;
+        height: 38px;
+        right: 31px;
+        top: 951px;border-radius: 20%;
+        z-index: 100;
+    }
+}
+@media all and (max-width: 768px) {
+    body > header > ul {
+        padding-left: 50px;
+        font-size: 20px;
+        list-style: none;
+        display: flex;
+        text-decoration: none;
+    }
+
+    body > div > ul {
+        position: absolute;
+        left: -38px;
+        font-size: 24px;
+        top: 18px;
+        list-style: none;
+    }
+
+    body > div > nav > h1 {
+        position: absolute;
+        top: 237px;
+        left: 33px;
+        font-family:"Leelawadee UI";
+        color: #f8f9fa;
+        font-size: 60px;
+        font-weight: bold;
+        animation-name: chanagecolor;
+        animation-duration: 2s;
+        animation-iteration-count: 2;
+    }
+
+    body > div > nav > h2 {
+        position: absolute;
+        top: 399px;
+        left: 132px;
+        font-family: "Fira Code Medium";
+        color: #e2cece;
+        font-size: 25px;
+
+    }
+
+    body > about > div > div > ul {
+        display: grid;
+        padding-top: 66px;
+        padding-left: 351px;
+        list-style: none;
+        font-size: 28px;
+    }
+
+    body > about > div > div > img {
+        position: absolute;
+        top: 127px;
+        height: 413px;
+        width: 345px;
+        filter: blur(1px);
+    }
+
+    .dowload_cv {
+        font-size: 25px;
+        right: 216px;
+        font-family: Ubuntu;
+        background: lightgreen;
+        color: black;
+        position: absolute;
+        font-weight: bold;
+        top: 536px;
+        width: 180px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 20px;
+        margin: 2px 2px 2px 2px;
+        text-decoration: none;
+    }
+
+    body > about > div > div > p1 {
+        font-size: 28px;
+        right: 84px;
+        background: black;
+        color: white;
+        position: absolute;
+        font-weight: bold;
+        top: 536px;
+        border: 2px solid lightgreen;
+        border-radius: 20%;
+    } {
+    display: grid;
+    left: -15px;
+    width: 100px;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    color: #a79696;
+    font-weight: bold;
+    top: 30px;
+}
+    body > nav > p {
+        color: #e2cece;
+        font-size: 25px;
+        font-family: 'Ubuntu', sans-serif;
+        padding-left: 403px;
+        top: 137px;
+        position: absolute;
+    }
+
+    body > nav > img {
+        width: 275px;
+        right: 0;
+        top: 389px;
+        height: 210px;
+        position: absolute;
+    }
+
+    body > article {
+        animation-name: work;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        width: 89%;
+        /* font-size: 11px; */
+        height: 107px;
+        top: 1211px;
+        position: relative;
+    }
+
+    body > article > img {
+        animation-name: work;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        width: 96%;
+        height: 92px;
+        top: 10px;
+        position: absolute;
+    }
+
+    body > article > p {
+        font-size: 33px;
+        width: 100%;
+        top: 20px;
+        font-style: italic;
+        font-weight: bold;
+        position: relative;
+        font-family: monospace;
+        color: black;
+        animation-name: color;
+        animation-duration: 5s;
+        animation-iteration-count: 10;
+    }
+
+    body > article > div {
+        width: 119px;
+        height: 101px;
+        position: relative;
+        background: black;
+        text-align: center;
+        font-size: 31px;
+        color: white;
+        /* right: 2000px; */
+        /* right: -904px; */
+        left: 656px;
+        top: -97px;
+    }
+
+    body>nav .info {
+        display: grid;
+        left: -16px;
+        width: 100px;
+        position: relative;
+        text-align: center;
+        padding: 20px;
+        font-size: 18px;
+        color: #a79696;
+        font-weight: bold;
+        top: 41px;
+    }
+    body>section>div>div:nth-child(1) {
+        width: 300px;
+        height: 40px;
+        position: absolute;
+        top: 168px;
+        left: -20px;
+        color: lawngreen;
+        font-size: 27px;
+        font-family: "Arial Narrow";
+        text-align: center;
+        animation-name: change;
+        animation-duration: 5s;
+        animation-iteration-count: 2;
+        animation-fill-mode: forwards;
+        font-weight: bold;
+    }
+    body>section>div>div:nth-child(1)>h1 {
+        font-size: 27px;
+        position: absolute;
+        right: -620px;
+        font-family: "Microsoft JhengHei Light";
+        top: 07px;
+        box-shadow: 4px 5px 16px 1px #ecedf3;
+        color: white;
+        animation-name: chg;
+        animation-duration: 5s;
+        animation-iteration-count: 2;
+        animation-fill-mode: forwards;
+    }
+    body>section>div>div:nth-child(2) {
+        width: 300px;
+        height: 40px;
+        position: absolute;
+        top: 276px;
+        font-family: "Arial Narrow";
+        color: lawngreen;
+        font-size: 27px;
+        font-weight: bold;
+        text-align: center;
+        animation-name: change;
+        animation-duration: 5s;
+        left: -99px;
+        animation-iteration-count: 2;
+        animation-fill-mode: forwards;
+    }
+    body>section>div>div:nth-child(3) {
+        width: 300px;
+        font-family: "Arial Narrow";
+        /* left: 49px; */
+        height: 40px;
+        position: absolute;
+        top: 403px;
+        color: lawngreen;
+        font-size: 27px;
+        font-weight: bold;
+        text-align: center;
+        animation-name: change;
+        animation-duration: 5s;
+        animation-iteration-count: 2;
+        animation-fill-mode: forwards;
+        left: -233px;
+    }
+    body>section>div>p {
+        position: absolute;
+        font-size: 15px;
+        top: 118px;
+        font-family: cursive;
+        color: #e2cece;
+        right: 588px;
+    }
+    body>done>assignment>h1 {
+        color: #e2cece;
+        position: absolute;
+        top: 105px;
+        left: 72px;
+        font-size: 32px;
+        font-weight: normal;
+        font-family: auto;
+    }
+    body>done>project .content-pro {
+        position: absolute;
+        top: 1274px;
+        display: flex;
+        left: 46px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        /* margin: 18px 132px 31px 0; */
+    }
+    body>done>project>h1 {
+        color: #e2cece;
+        position: absolute;
+        top: 1225px;
+        left: 72px;
+        font-size: 32px;
+        font-weight: normal;
+        font-family: auto;
+    }
+    body>contact {
+        height: 1005px;
+        width: 100%;
+        background: linear-gradient(to left,#020312, #1b1b1d);
+        position: absolute;
+        top: 4691px;
+    }
+    body>done {
+        height: 2129px;
+        width: 100%;
+        background: linear-gradient(to left,#020312, #1b1b1d);
+        position: absolute;
+        top: 2563px;
+    }
+    body>footer {
+        height: 60px;
+        width: 100%;
+        background: #020312;
+        position: absolute;
+        top: 5693px;
+    }
+    body>contact>h3 {
+        color: #eeeeee;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 35px;
+        position: absolute;
+        right: 99px;
+        top: 278px;
+        font-stretch: semi-condensed;
+    }
+    body>contact>msg .msg {
+        position: absolute;
+        top: 395px;
+        display: flex;
+        left: 329px;
+        height: 11px;
+        width: 468px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    body>contact>msg>name {
+        color: white;
+        font-size: 13px;
+        left: 271px;
+        top: 359px;
+        display: flex;
+        position: absolute;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    body>contact>msg>send {
+        position: absolute;
+        background: linear-gradient(to left,#020312, #1b1b1d);
+        text-align: center;
+        color: white;
+        border: 2px solid lightgreen;
+        font-family: Ubuntu;
+        font-weight: bold;
+        font-size: 27px;
+        width: 164px;
+        height: 36px;
+        right: 31px;
+        top: 951px;
+        z-index: 100;
+    }
+    body>contact >div>ul>li {
+        display: flex;
+        font-size: 46px;
+        padding-left: 45px;
+        padding-top: 40px;
+        color: #4db114;
+    }
+}
+@media all and  (max-width: 411px) {
+    body > header > ul {
+        padding-left: 3px;
+        font-size: 14px;
+        list-style: none;
+        display: flex;
+        text-decoration: none;
+    }
+
+    body > header > ul > li {
+        color: #6c757d;
+        display: inline-block;
+        padding-right: 22px;
+        cursor: pointer;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    body > div > nav > h1 {
+        position: absolute;
+        top: 297px;
+        left: 33px;
+        font-family:"Leelawadee UI";
+        color: #f8f9fa;
+        font-size: 60px;
+        font-weight: bold;
+        animation-name: chanagecolor;
+        animation-duration: 2s;
+        animation-iteration-count: 2;
+    }
+
+    body > div > nav > h2 {
+        position: absolute;
+        top: 522px;
+        left: 87px;
+        font-family: "Fira Code Medium";
+        color: #e2cece;
+        font-size: 25px;
+    }
+
+    body > about > div > div > img {
+        position: absolute;
+        top: 127px;
+        height: 413px;
+        width: 345px;
+        filter: blur(1px);
+        visibility: hidden;
+    }
+
+    body > about > div > div > ul {
+        display: grid;
+        padding-top: 66px;
+        padding-left: 0px;
+        list-style: none;
+        font-size: 28px;
+    }
+
+    .dowload_cv {
+        font-size: 25px;
+        right: 216px;
+        font-family: Ubuntu;
+        background: white;
+        color: black;
+        position: absolute;
+        font-weight: bold;
+        top: 581px;
+        width: 180px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 20px;
+        margin: 2px 2px 2px 2px;
+        text-decoration: none;
+    }
+
+    body > about > div > div > p1 {
+        font-size: 28px;
+        right: 19px;
+        background: black;
+        color: white;
+        position: absolute;
+        font-weight: bold;
+        top: 577px;
+        border: 2px solid white;
+        border-radius: 20%;
+    }
+
+    body > about:nth-child(4) {
+        height: 630px;
+        width: 100%;
+        background: linear-gradient(to left, #020312, #1b1b1d);
+        position: absolute;
+        top: 655px;
+    }
+
+    body > nav > h1 {
+        position: relative;
+        top: 63px;
+        color: #1b1b1d;
+        font-weight: bold;
+        font-size: 36px;
+        -webkit-text-stroke: 0.3vw #1b1b1d;
+        text-transform: uppercase;
+    }
+
+    body > nav > img {
+        width: 275px;
+        right: 0;
+        visibility: hidden;
+        top: 389px;
+        height: 210px;
+        position: absolute;
+    }
+
+    body > nav:nth-child(5) {
+        height: 674px;
+        width: 100%;
+        background: linear-gradient(to left, #020312, #1b1b1d);
+        position: absolute;
+        top: 1283px;
+    }
+
+    body > nav > p {
+        color: #e2cece;
+        font-size: 14px;
+        font-family: 'Ubuntu', sans-serif;
+        padding-left: 273px;
+        top: 511px;
+        position: absolute;
+    }
+
+    body > article > p {
+        font-size: 28px;
+        width: 100%;
+        top: 27px;
+        font-style: italic;
+        font-weight: bold;
+        position: relative;
+        font-family: monospace;
+        color: black;
+        animation-name: color;
+        animation-duration: 5s;
+        animation-iteration-count: 10;
+    }
+
+    body > article {
+        animation-name: work;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        width: 87%;
+        /* font-size: 11px; */
+        height: 107px;
+        top: 1303px;
+        position: relative;
+    }
+
+    body > section:nth-child(7) {
+        height: 608px;
+        width: 100%;
+        background: linear-gradient(to left, #020312, #1b1b1d);
+        position: absolute;
+        top: 2043px;
+    }
+
+    body > article > div {
+        width: 69px;
+        height: 101px;
+        position: relative;
+        background: black;
+        text-align: center;
+        font-size: 21px;
+        color: white;
+        /* right: 2000px; */
+        /* right: -904px; */
+        left: 342px;
+        top: -76px;
+    }
+
+    body > section:nth-child(7) {
+        height: 608px;
+        width: 100%;
+        background: linear-gradient(to left, #020312, #1b1b1d);
+        position: absolute;
+        top: 2044px;
+    }
+
+    body > section > h1 {
+        position: relative;
+        top: 42px;
+        color: #1b1b1d;
+        font-weight: bold;
+        font-size: 36px;
+        -webkit-text-stroke: 0.3vw #1b1b1d;
+        text-transform: uppercase;
+    }
+
+    body > section > div > div:nth-child(1) {
+        width: 300px;
+        height: 40px;
+        position: absolute;
+        top: 168px;
+        left: -264px;
+        color: white;
+        font-size: 27px;
+        font-family: "Arial Narrow";
+        text-align: center;
+        animation-name: change;
+        animation-duration: 5s;
+        animation-iteration-count: 2;
+        animation-fill-mode: forwards;
+        font-weight: bold;
+    }
+
+    body > section > div > div:nth-child(1) > h1 {
+        font-size: 23px;
+        position: absolute;
+        right: -471px;
+        font-family: "Microsoft JhengHei Light";
+        top: 07px;
+        box-shadow: 4px 5px 16px 1px #ecedf3;
+        color: white;
+        animation-name: chg;
+        animation-duration: 5s;
+        animation-iteration-count: 2;
+        animation-fill-mode: forwards;
+    }
+
+    body > section > div > div:nth-child(2) > h2 {
+        font-size: 22px;
+        position: absolute;
+        font-family: "Microsoft JhengHei Light";
+        right: -486px;
+        top: 07px;
+        box-shadow: 4px 5px 16px 1px #ecedf3;
+        color: white;
+        animation-name: chg;
+        animation-duration: 5s;
+        animation-iteration-count: 2;
+        animation-fill-mode: forwards;
+    }
+
+    body > section > div > div:nth-child(2) {
+        width: 300px;
+        height: 40px;
+        position: absolute;
+        top: 282px;
+        font-family: "Arial Narrow";
+        color: white;
+        font-size: 27px;
+        font-weight: bold;
+        text-align: center;
+        animation-name: change;
+        animation-duration: 5s;
+        left: -271px;
+        animation-iteration-count: 2;
+        animation-fill-mode: forwards;
+    }
+
+    body > section > div > div:nth-child(3) {
+        width: 300px;
+        font-family: "Arial Narrow";
+        /* left: 49px; */
+        height: 40px;
+        position: absolute;
+        top: 403px;
+        color: white;
+        font-size: 23px;
+        font-weight: bold;
+        text-align: center;
+        animation-name: change;
+        animation-duration: 5s;
+        animation-iteration-count: 2;
+        animation-fill-mode: forwards;
+        left: -358px;
+    }
+
+    body > section > div > div:nth-child(3) > h3 {
+        font-size: 23px;
+        position: absolute;
+        right: -756px;
+        font-family: "Microsoft JhengHei Light";
+        top: 7px;
+        box-shadow: 4px 5px 16px 1px #ecedf3;
+        color: white;
+        animation-name: chg;
+        animation-duration: 5s;
+        animation-iteration-count: 2;
+        animation-fill-mode: forwards;
+    }
+
+    body > done > assignment .content-ass {
+        position: absolute;
+        top: 178px;
+        display: flex;
+        left: 5px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        text-decoration: none;
+        /* margin: 18px 132px 31px 0; */
+    }
+
+    body > done > assignment .content-ass .card {
+        display: grid;
+        margin: 0px 12px 29px 17px;
+        font-family: Ubuntu;
+        color: white;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    body > done > project > h1 {
+        color: #e2cece;
+        position: absolute;
+        top: 1048px;
+        left: 72px;
+        font-size: 32px;
+        font-weight: normal;
+        font-family: auto;
+    }
+
+    body > done > project .content-pro {
+        position: absolute;
+        top: 1126px;
+        display: flex;
+        left: 5px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        /* margin: 18px 132px 31px 0; */
+    }
+
+    body > done > project .content-pro .card {
+        display: grid;
+        margin: 38px 15px 31px 17px;
+        font-family: Ubuntu;
+        color: white;
+        font-size: 18px;
+    }
+
+    body > done {
+        height: 2018px;
+        width: 100%;
+        background: linear-gradient(to left, #020312, #1b1b1d);
+        position: absolute;
+        top: 2563px;
+    }
+
+    body > contact {
+        height: 1005px;
+        width: 100%;
+        background: linear-gradient(to left, #020312, #1b1b1d);
+        position: absolute;
+        top: 4580px;
+    }
+
+    body > contact > h1 {
+        position: relative;
+        top: 18px;
+        color: #1b1b1d;
+        font-weight: bold;
+        font-size: 36px;
+        -webkit-text-stroke: 0.3vw #1b1b1d;
+        text-transform: uppercase;
+    }
+
+    body > footer {
+        height: 60px;
+        width: 100%;
+        background: #020312;
+        position: absolute;
+        top: 5695px;
+    }
+
+    body > contact {
+        height: 1115px;
+        width: 100%;
+        background: linear-gradient(to left, #020312, #1b1b1d);
+        position: absolute;
+        top: 4580px;
+    }
+
+    body > contact > msg .msg {
+        position: absolute;
+        top: 883px;
+        display: flex;
+        left: -24px;
+        height: 11px;
+        width: 461px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    body > contact > div > ul > li > a > p3 {
+        display: flex;
+        font-size: 11px;
+        padding-top: 1px;
+        color: wheat;
+    }
+
+    body > contact > div > ul > li > a > p3 {
+        display: flex;
+        font-size: 15px;
+        /* left: 10px; */
+        position: relative;
+        left: -54px;
+        padding-left: 15px;
+        padding-top: 1px;
+        color:  wheat;
+    }
+
+    body > contact > div > ul > li {
+        position: relative;
+        display: flex;
+        left: 6px;
+        font-size: 29px;
+        padding-left: 1px;
+        padding-top: 40px;
+        color:  wheat;
+    }
+
+    body > contact > h4 {
+        font-size: 36px;
+        position: relative;
+        color: burlywood;
+        padding-left: 26px;
+        top: 15px;
+        font-family: cursive;
+    }
+
+    body > contact > ul {
+        font-size: 24px;
+        list-style: none;
+        color: #eeeeee;
+        top: -22px;
+        position: relative;
+        text-decoration: none;
+    }
+
+    body > contact > h3 {
+        color: #eeeeee;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 35px;
+        position: absolute;
+        right: 99px;
+        top: 742px;
+        font-stretch: semi-condensed;
+    }
+
+    body > contact > msg > name {
+        color: white;
+        font-size: 13px;
+        left: -42px;
+        top: 847px;
+        display: flex;
+        position: absolute;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    body > contact {
+        height: 1509px;
+        width: 100%;
+        background: linear-gradient(to left, #020312, #1b1b1d);
+        position: absolute;
+        top: 4580px;
+    }
+
+    body > footer {
+        height: 62px;
+        width: 100%;
+        background: #020312;
+        position: absolute;
+        top: 6088px;
+    }
+
+    body > contact > msg > send {
+        position: absolute;
+        background: linear-gradient(to left, #020312, #1b1b1d);
+        text-align: center;
+        color: white;
+        border: 2px solid white;
+        font-family: Ubuntu;
+        font-weight: bold;
+        font-size: 27px;
+        width: 130px;
+        height: 36px;
+        right: 31px;
+        top: 1445px;
+        z-index: 100;
+    }
+}
+
+@media  all and  (max-width:360px) {
+    body > header > ul {
+        padding-left: 1px;
+        font-size: 12px;
+        list-style: none;
+        display: flex;
+        text-decoration: none;
+    }
+    body{
+        overflow-x: hidden
+    }
+    body > header > ul > li {
+        display: inline-block;
+        padding-right: 22px;
+        cursor: pointer;
+        font-weight: bold;
+        text-decoration: none;
+        z-index: 200;
+        color: #6c757d;
+    }
+    body > section:nth-child(7) {
+        height: 608px;
+        width: 100%;
+        background: linear-gradient(to left, #020312, #1b1b1d);
+        position: absolute;
+        top: 1952px;
+    }
+    body > div > ul {
+        position: absolute;
+        left: -31px;
+        font-size: 24px;
+        top: -2px;
+        list-style: none;
+    }
+
+    body > div > ul > li {
+        display: block;
+        color: #ffffff;
+        padding: 4px;
+        cursor: pointer;
+        font-weight: bold;
+        font-weight: lighter;
+    }
+
+    body > div > nav > h1 {
+        position: absolute;
+        top: 307px;
+        left: 7px;
+        font-family: "Leelawadee UI";
+        color: #f8f9fa;
+        font-size: 60px;
+        font-weight: bold;
+        animation-name: chanagecolor;
+        animation-duration: 2s;
+        animation-iteration-count: 2;
+    }
+
+    body > div > nav > h2 {
+        position: absolute;
+        top: 538px;
+        left: 48px;
+        font-family: "Fira Code Medium";
+        color: #e2cece;
+        font-size: 25px;
+    }
+    body > contact > msg > name {
+        color: white;
+        font-size: 13px;
+        left: -42px;
+        top: 847px;
+        display: flex;
+        position: absolute;
+        flex-wrap: wrap;
+        align-items: center;
+        visibility: hidden;
+        justify-content: space-between;
+    }
+    body > about > div > div > ul {
+        display: grid;
+        padding-top: 48px;
+        padding-left: 11px;
+        list-style: none;
+        font-size: 21px;
+    }
+
+    body > about > div > div > img {
+        position: absolute;
+        top: 127px;
+        height: 413px;
+        width: 345px;
+        filter: blur(1px);
+        visibility: hidden;
+    }
+
+    body > about > div > h1 {
+        position: relative;
+        top: 36px;
+        color: #1b1b1d;
+        font-weight: bold;
+        font-size: 33px;
+        -webkit-text-stroke: 0.3vw #1b1b1d;
+        text-transform: uppercase;
+    }
+
+    body > div > nav > h1 {
+        position: absolute;
+        top: 321px;
+        left: 7px;
+        font-family: "Leelawadee UI";
+        color: #f8f9fa;
+        font-size: 55px;
+        font-weight: bold;
+        animation-name: chanagecolor;
+        animation-duration: 2s;
+        animation-iteration-count: 2;
+    }
+
+    .dowload_cv {
+        font-size: 25px;
+        right: 161px;
+        font-family: Ubuntu;
+        background: snow;
+        color: black;
+        position: absolute;
+        font-weight: bold;
+        top: 447px;
+        width: 180px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 20px;
+        margin: 2px 2px 2px 2px;
+        text-decoration: none;
+    }
+
+    body > about > div > div > p1 {
+        font-size: 28px;
+        right: 6px;
+        background: black;
+        color: white;
+        position: absolute;
+        font-weight: bold;
+        top: 442px;
+        border: 2px solid snow;
+        /* border-radius: 20%; */
+    }
+
+    body > about:nth-child(4) {
+        height: 552px;
+        width: 100%;
+        background: linear-gradient(to left, #020312, #1b1b1d);
+        position: absolute;
+        top: 655px;
+    }
+
+    body > nav > h1 {
+        position: relative;
+        top: 2px;
+        color: #1b1b1d;
+        font-weight: bold;
+        font-size: 33px;
+        -webkit-text-stroke: 0.3vw #1b1b1d;
+        text-transform: uppercase;
+    }
+
+    body > nav .info {
+        display: grid;
+        left: -7px;
+        width: 100px;
+        position: relative;
+        text-align: center;
+        padding: 20px;
+        font-size: 18px;
+        color: #a79696;
+        font-weight: bold;
+        top: 8px;
+    }
+
+    body > nav > p {
+        color: #e2cece;
+        font-size: 14px;
+        font-family: 'Ubuntu', sans-serif;
+        padding-left: 151px;
+        top: 610px;
+        position: absolute;
+    }
+
+    body > nav:nth-child(5) {
+        height: 749px;
+        width: 100%;
+        background: linear-gradient(to left, #020312, #1b1b1d);
+        position: absolute;
+        top: 1206px;
+    }
+
+    body > article {
+        animation-name: work;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        width: 96%;
+        height: 89px;
+        top: 1214px;
+        position: relative;
+        visibility: hidden;
+    }
+
+    body > section > h1 {
+        position: relative;
+        top: -13px;
+        color: #1b1b1d;
+        font-weight: bold;
+        font-size: 33px;
+        -webkit-text-stroke: 0.3vw #1b1b1d;
+        text-transform: uppercase;
+    }
+
+    body > section > div > div:nth-child(1) > h1 {
+        font-size: 18px;
+        position: absolute;
+        right: -321px;
+        font-family: "Microsoft JhengHei Light";
+        top: 17px;
+        box-shadow: 4px 5px 16px 1px #ecedf3;
+        color: white;
+        animation-name: chg;
+        animation-duration: 5s;
+        animation-iteration-count: 2;
+        animation-fill-mode: forwards;
+    }
+
+    body > section > div > div:nth-child(1) {
+        width: 316px;
+        height: 36px;
+        position: absolute;
+        top: 97px;
+        left: -285px;
+        color: snow;
+        font-size: 25px;
+        font-family: "Arial Narrow";
+        text-align: center;
+        animation-name: change;
+        animation-duration: 5s;
+        animation-iteration-count: 2;
+        animation-fill-mode: forwards;
+        font-weight: bold;
+    }
+
+    body > section > div > div:nth-child(2) > h2 {
+        font-size: 18px;
+        position: absolute;
+        font-family: "Microsoft JhengHei Light";
+        /* left: 278px; */
+        right: -328px;
+        top: 11px;
+        box-shadow: 4px 5px 16px 1px #ecedf3;
+        color: white;
+        animation-name: chg;
+        animation-duration: 5s;
+        animation-iteration-count: 2;
+        animation-fill-mode: forwards;
+    }
+
+    body > section > div > div:nth-child(2) {
+        width: 358px;
+        height: 40px;
+        left: -363px;
+        position: absolute;
+        top: 216px;
+        font-family: "Arial Narrow";
+        color: snow;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        animation-name: change;
+        animation-duration: 5s;
+        animation-iteration-count: 2;
+        animation-fill-mode: forwards;
+    }
+
+    body > section > div > div:nth-child(3) {
+        width: 275px;
+        font-family: "Arial Narrow";
+        height: 40px;
+        left: -76px;
+        left: -227px;
+        position: absolute;
+        top: 335px;
+        color: snow;
+        font-size: 27px;
+        font-weight: bold;
+        text-align: center;
+        animation-name: change;
+        animation-duration: 5s;
+        animation-iteration-count: 2;
+        animation-fill-mode: forwards;
+        left: -308px;
+    }
+
+    body > section > div > div:nth-child(3) > h3 {
+        font-size: 19px;
+        position: absolute;
+        right: -598px;
+        font-family: "Microsoft JhengHei Light";
+        top: 7px;
+        box-shadow: 4px 5px 16px 1px #ecedf3;
+        color: white;
+        animation-name: chg;
+        animation-duration: 5s;
+        animation-iteration-count: 2;
+        animation-fill-mode: forwards;
+    }
+
+    body > section > div > p {
+        position: absolute;
+        font-size: 23px;
+        top: 397px;
+        font-family: cursive;
+        color: #e2cece;
+        right: 54px;
+    }
+
+    body > done > h1 {
+        position: relative;
+        top: 17px;
+        color: #1b1b1d;
+        font-weight: bold;
+        font-size: 33px;
+        -webkit-text-stroke: 0.3vw #1b1b1d;
+        text-transform: uppercase;
+    }
+
+    body > done {
+        height: 1674px;
+        width: 100%;
+        background: linear-gradient(to left, #020312, #1b1b1d);
+        position: absolute;
+        top: 2561px;
+    }
+
+    body > done > assignment > h1 {
+        color: #e2cece;
+        position: absolute;
+        top: 83px;
+        left: 25px;
+        font-size: 30px;
+        font-weight: normal;
+        font-family: auto;
+    }
+
+    body > done > assignment .content-ass {
+        position: absolute;
+        top: 178px;
+        display: flex;
+        left: 0px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        text-decoration: none;
+        /* margin: 18px 132px 31px 0; */
+    }
+
+    body > done > assignment .content-ass .card .box .header {
+        text-align: center;
+        color: wheat;
+        font-family: Ubuntu;
+        display: grid;
+        font-weight: bold;
+        font-size: 17px;
+        text-decoration: none;
+    }
+
+    body > done > assignment .content-ass .card {
+        display: grid;
+        margin: 38px -9px 31px 17px;
+        font-family: Ubuntu;
+        color: white;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    body > done > project > h1 {
+        color: #e2cece;
+        position: absolute;
+        top: 1200px;
+        left: 83px;
+        font-size: 25px;
+        font-weight: normal;
+        font-family: auto;
+    }
+
+    body > done > project .content-pro .card .box .header {
+        text-align: center;
+        color: wheat;
+        font-family: Ubuntu;
+        display: grid;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    body > done > project .content-pro {
+        position: absolute;
+        top: 1239px;
+        display: flex;
+        left: -7px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        /* margin: 18px 132px 31px 0; */
+    }
+
+    body > done > project .content-pro .card {
+        display: grid;
+        margin: 38px -9px 31px 17px;
+        font-family: Ubuntu;
+        color: white;
+        font-size: 18px;
+    }
+
+    body > contact {
+        height: 1022px;
+        width: 100%;
+        background: linear-gradient(to left, #020312, #1b1b1d);
+        position: absolute;
+        top: 4232px;
+    }
+
+    body > contact > div > ul {
+        display: table;
+        color: white;
+    }
+
+    body > contact > div > ul > li {
+        display: flex;
+        font-size: 25px;
+        padding-left: 0px;
+        padding-top: 40px;
+        color: white;
+    }
+
+    body > contact > h3 {
+        color: #eeeeee;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 28px;
+        position: absolute;
+        right: 83px;
+        top: 396px;
+        font-stretch: semi-condensed;
+    }
+
+    body > contact > msg .msg {
+        position: absolute;
+        top: 475px;
+        /* width: 31px; */
+        display: flex;
+        width: 88px;
+        left: -51px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .name {
+        visibility: hidden;
+    }
+
+    .mail {
+        width: 100px;
+
+    }
+
+    .in {
+        width: 100px;
+    }
+    body > contact > h4 {
+        font-size: 29px;
+        position: relative;
+        color: burlywood;
+        top: 652px;
+        font-family: cursive;
+    }
+
+    body > contact > msg > send {
+        position: absolute;
+        background: #2b2b34;
+        text-align: center;
+        color: white;
+        border: 2px solid wheat;
+        font-family: Ubuntu;
+        font-weight: bold;
+        font-size: 22px;
+        width: 137px;
+        height: 28px;
+        right: 46px;
+        top: 977px;
+        z-index: 100;
+    }
+
+    body > contact > ul {
+        font-size: 24px;
+        list-style: none;
+        top: 643px;
+        position: relative;
+        text-decoration: none;
+        color: #dae0e7;
+    }
+
+    body > contact {
+        height: 1544px;
+        width: 100%;
+        background: linear-gradient(to left, #020312, #1b1b1d);
+        position: absolute;
+        top: 4232px;
+    }
+
+    body > contact {
+        height: 1599px;
+        width: 100%;
+        background: linear-gradient(to left, #020312, #1b1b1d);
+        position: absolute;
+        top: 4232px;
+    }
+
+    body > footer {
+        height: 60px;
+        width: 100%;
+        background: #020312;
+        position: absolute;
+        top: 5832px;
+    }
+}
